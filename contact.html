@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Sisara Dilhari" />
+        <meta name="viewport" content="width=device-width , initial-scale=1.0"/>
+
+        <title>Our University Web Site</title>
+        <link rel="stylesheet" href="main.css" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+
+
+    </head>
+    <body>
+        <section class="sub-header"> <!--Change class name-->
+            <nav>
+                <a href="index.html"> <img src="img/img/logo.png" alt="University eduford"> </a>
+
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html" >COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars"  onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+
+        </section>
+
+           <!--------------------------Contact us page----------------------->    
+           <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.768021029622!2d80.7955867!3d6.026546799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae14adbd0990d8d%3A0xee8b6e7034dddabe!2sTangalle%20Town%20Hall!5e0!3m2!1sen!2slk!4v1658566580582!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border: 0;"></iframe>
+           </section>
+
+           <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h4>67/A,Medagama,tangalle</h4>
+                            <p>Locate near to tangalle town, Sri Lanka </p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h4>0715747823</h4>
+                            <p>Monday to Saturday, 10AM to 5PM </p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h4>sisaradilhari.1998@gmail.com</h4>
+                            <p>Email us your query </p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="contact-col">
+                    <form action="">
+                        <input type="text" placeholder="Enter Your Name:">
+                        <input type="email" placeholder="Enter Your Email:">
+                        <input type="text" placeholder="Enter Your Subject:">
+                        <textarea rows="8"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message </button>
+                       
+                    </form>
+                </div>
+            </div>
+
+           </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <div class="icons">
+            <i class="fa fa-facebook" href="facebook.com"></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+        <p>Made With <i class="fa fa-heart" ></i> by Sisara Dilhari</p>
+    </section>
+
+  
+        <!--javascript function-->
+
+     <script>
+        var navLink = document.getElementById('nav-links');
+        function showMenu(){
+            navLink.style.right="0";
+        }
+        function hideMenu(){
+            navLink.style.right="-200px";
+        }
+    </script>
+
+    </body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Sisara Dilhari" />
+        <meta name="viewport" content="width=device-width , initial-scale=1.0"/>
+
+        <title>Our University Web Site</title>
+        <link rel="stylesheet" href="main.css" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+
+
+    </head>
+    <body>
+        <section class="sub-header"> <!--Change class name-->
+            <nav>
+                <a href="index.html"> <img src="img/img/logo.png" alt="University eduford"> </a>
+
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html" >COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars"  onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Course</h1>
+        </section>
+
+        <!--------------- Course page--------------> 
+
+        <!--Course -->
+        
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>When I read this great hypertext novel i was alarmed. Art you see is sometimes very ugly indeed. But beautiful.</p>
+            <div class="row">
+               <div class="course-col">
+                   <h3>Intermediate</h3>
+                   <p>As a graduate student you'll belong to a department or faculty – a thriving academic community working to advance knowledge in a particular field. Your department or faculty will provide your teaching and supervision, as well as extensive, specialist resources to support your studies. Our departments often collaborate on joint courses and interdisciplinary research projects.</p>
+               </div>
+               <div class="course-col">
+                   <h3>Degree</h3>
+                   <p>As a graduate student you'll belong to a department or faculty – a thriving academic community working to advance knowledge in a particular field. Your department or faculty will provide your teaching and supervision, as well as extensive, specialist resources to support your studies. Our departments often collaborate on joint courses and interdisciplinary research projects.</p>
+               </div>
+               <div class="course-col">
+                   <h3>Post Graduation </h3>
+                   <p>As a graduate student you'll belong to a department or faculty – a thriving academic community working to advance knowledge in a particular field. Your department or faculty will provide your teaching and supervision, as well as extensive, specialist resources to support your studies. Our departments often collaborate on joint courses and interdisciplinary research projects.</p>
+               </div>
+            </div>
+        </section>
+
+           <!--Facilities-->
+       <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Achieve high resolution over extremely large magnetic field ranges,in a small, low-power package capable of operating at cryogenic tempratures.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/img/library.png" alt="library">
+                <h3>World Class Library</h3>
+                <p>Achieve high resolution over extremely large magnetic field ranges,in a small, low-power package capable of operating at cryogenic tempratures.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="img/img/basketball.png" alt="basketball">
+                <h3>Larget Play Ground</h3>
+                <p>Achieve high resolution over extremely large magnetic field ranges,in a small, low-power package capable of operating at cryogenic tempratures.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="img/img/cafeteria.png" alt="cafeteria">
+                <h3>Testy and Healthy Food</h3>
+                <p>Achieve high resolution over extremely large magnetic field ranges,in a small, low-power package capable of operating at cryogenic tempratures.</p>
+            </div>
+        </div>
+
+       </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <div class="icons">
+            <i class="fa fa-facebook" href="facebook.com"></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+        <p>Made With <i class="fa fa-heart" ></i> by Sisara Dilhari</p>
+    </section>
+  
+        <!--javascript function-->
+
+     <script>
+        var navLink = document.getElementById('nav-links');
+        function showMenu(){
+            navLink.style.right="0";
+        }
+        function hideMenu(){
+            navLink.style.right="-200px";
+        }
+    </script>
+
+    </body>
+</html>
